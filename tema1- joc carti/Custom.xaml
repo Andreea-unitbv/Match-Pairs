@@ -1,0 +1,23 @@
+﻿<Window x:Class="tema1__joc_carti.Custom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tema1__joc_carti"
+        mc:Ignorable="d"
+        Title="Custom" Height="250" Width="150">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Center" Margin="10">
+            <Label>Rows</Label>
+            <ComboBox Name="rowSelector"></ComboBox>
+            <Label>Columns</Label>
+            <ComboBox Name="columnSelector"></ComboBox>
+        </StackPanel>
+        <Button Click="Button_Click" Grid.Row="1" Margin="20,10">Save</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Username>dana</Username>
+    <AvatarPath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Avatars\1.jpg</AvatarPath>
+    <TotalGames>2</TotalGames>
+    <GamesWon>0</GamesWon>
+    <Game>
+      <Cards>
+        <ArrayOfCard>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\1.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\10.jpg</FrontImagePath>
+            <IsMatched>true</IsMatched>
+            <IsFlipped>true</IsFlipped>
+          </Card>
+        </ArrayOfCard>
+        <ArrayOfCard>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\10.jpg</FrontImagePath>
+            <IsMatched>true</IsMatched>
+            <IsFlipped>true</IsFlipped>
+          </Card>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\1.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+        </ArrayOfCard>
+      </Cards>
+      <Level>1</Level>
+    </Game>
+  </User>
+  <User>
+    <Username>elena</Username>
+    <AvatarPath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Avatars\1.jpg</AvatarPath>
+    <TotalGames>2</TotalGames>
+    <GamesWon>1</GamesWon>
+    <Game>
+      <Cards>
+        <ArrayOfCard>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\1.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\1.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+        </ArrayOfCard>
+        <ArrayOfCard>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\10.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\10.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+        </ArrayOfCard>
+      </Cards>
+      <Level>1</Level>
+    </Game>
+  </User>
+  <User>
+    <Username>andreea</Username>
+    <AvatarPath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Avatars\3.jpg</AvatarPath>
+    <TotalGames>3</TotalGames>
+    <GamesWon>1</GamesWon>
+  </User>
+  <User>
+    <Username>Mihai</Username>
+    <AvatarPath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Avatars\8.jpg</AvatarPath>
+    <TotalGames>0</TotalGames>
+    <GamesWon>0</GamesWon>
+    <Game>
+      <Cards>
+        <ArrayOfCard>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\10.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\10.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+        </ArrayOfCard>
+        <ArrayOfCard>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\1.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+          <Card>
+            <BackImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\0.jpg</BackImagePath>
+            <FrontImagePath>C:\Users\Andreea\OneDrive\Desktop\an II\sem 2\MVP\teme\tema1- joc carti\Cards\1.jpg</FrontImagePath>
+            <IsMatched>false</IsMatched>
+            <IsFlipped>false</IsFlipped>
+          </Card>
+        </ArrayOfCard>
+      </Cards>
+      <Level>1</Level>
+    </Game>
+  </User>
+</ArrayOfUser>

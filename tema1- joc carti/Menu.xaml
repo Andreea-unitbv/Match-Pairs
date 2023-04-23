@@ -1,0 +1,62 @@
+﻿<Window x:Class="tema1__joc_carti.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tema1__joc_carti"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+
+   
+    <Grid>
+
+        <Menu>
+            <MenuItem Header="_File">
+                <MenuItem Header="_New Game" Click="NewGameButton_Click"/>
+                <MenuItem Header="_Open Game" Click="OpenGameButton_Click"/>
+                <MenuItem Header="_Save Game" Click="SaveGameButton_Click"/>
+                <MenuItem Header="_Statistics" Click="StatisticsButton_Click"/>
+                <MenuItem Header="_Exit" Click="ExitButton_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Options">
+                <MenuItem Header="_Standard" Click="StandardButton_Click"/>
+                <MenuItem Header="_Custom" Click="CustomButton_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About" Click="HelpButton_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <Grid VerticalAlignment="Center" Name="buttons" HorizontalAlignment="Center">
+            <ItemsControl x:Name="itemsControl" ItemsSource="{Binding}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <ItemsControl  ItemsSource="{Binding}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate >
+                                <DataTemplate >
+                                    <Button Width="60" Height="60" Margin="5" Click="OnCardButtonClick">
+                                        <Image Source="{Binding BackImagePath}" Stretch="Uniform"/>
+                                    </Button>
+                                </DataTemplate>
+
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
+        </Grid>
+
+
+        <StackPanel x:Name="infoPanel" Orientation="Horizontal" VerticalAlignment="Bottom" Background="#76a38c">
+            <TextBlock x:Name="playerName" TextWrapping="Wrap" Margin="10"/>
+            <TextBlock Text="{Binding Level}"></TextBlock>
+            <Image x:Name="avatar" Width="32" Height="32" Stretch="UniformToFill" Margin="10"/>
+        </StackPanel>
+    </Grid>
+ </Window>

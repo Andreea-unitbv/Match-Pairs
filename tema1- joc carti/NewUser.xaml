@@ -1,0 +1,40 @@
+﻿<Window x:Class="tema1__joc_carti.NewUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tema1__joc_carti"
+        mc:Ignorable="d"
+        Title="New user" Height="450" Width="800">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Section -->
+        <StackPanel VerticalAlignment="Center" Grid.Column="0" Margin="10">
+            <Label HorizontalAlignment="Center" Content="Enter a username:" />
+            <TextBox x:Name="txtUsername" Margin="0 10 0 20" />
+
+            <Button Content="Create New User" Click="BtnCreateUser_Click" />
+        </StackPanel>
+
+        <!-- Right Section -->
+        <StackPanel VerticalAlignment="Center" Grid.Column="1" Margin="10">
+            <Label HorizontalAlignment="Center" Content="Choose an avatar:" />
+
+            <StackPanel  Margin="0 10">
+                
+                <Image x:Name="imgAvatar" Width="100" Height="100" Margin="10" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="&lt;&lt;" Click="BtnPrevAvatar_Click" />
+                    <Button Content=">>" Click="BtnNextAvatar_Click" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+
+
+</Window>
